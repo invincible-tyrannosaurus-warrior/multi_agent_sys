@@ -1,0 +1,860 @@
+<!DOCTYPE html><html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoliv China Business Process Management System</title>
+    <link href="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/bootstrap/css/bootstrap.css?bundleVirtualPath=%7e%2fstyle%2fbootstrap" rel="stylesheet">
+<link href="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/bootstrap-icons/font/bootstrap-icons.css?bundleVirtualPath=%7e%2fstyle%2fbootstrap" rel="stylesheet">
+<link href="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/custom/custom.css?bundleVirtualPath=%7e%2fstyle%2fbootstrap" rel="stylesheet">
+
+    <link href="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/bootstrap-fileinput/css/fileinput.css?bundleVirtualPath=%7e%2fstyle%2fbootstrap-fileinput" rel="stylesheet">
+
+    <link href="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/select2/css/select2.css?bundleVirtualPath=%7e%2fstyle%2fselect2" rel="stylesheet">
+<link href="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/select2-bootstrap-5-theme/select2-bootstrap-5-theme.css?bundleVirtualPath=%7e%2fstyle%2fselect2" rel="stylesheet">
+
+    <link href="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/viewerjs/css/viewer.css?bundleVirtualPath=%7e%2fstyle%2fviewerjs" rel="stylesheet">
+
+    
+</head>
+<body class="overflow-auto m-0 p-0">
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="check-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+        </symbol>
+        <symbol id="info-fill" viewBox="0 0 16 16">
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path>
+        </symbol>
+        <symbol id="exclamation-triangle-fill" viewBox="0 0 16 16">
+            <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+        </symbol>
+    </svg>
+    <main>
+        
+
+
+
+<div class="container-fluid mb-3 d-none d-md-block">
+    <div class="row align-items-center">
+        <div class="col-2"><img src="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/Images/logo.png" class="rounded float-start" alt=""></div>
+        <div class="col align-items-center text-center">
+            <div class="row user-select-all"><h3><strong>Autoliv China Employee Expense Claim Request</strong></h3></div>
+                <div class="row">
+                    <div class="d-flex justify-content-center align-items-center">
+                                <div class="ps-3"><a href="https://autoliv.sharepoint.com/sites/SP_Cns3PpqAchautolivmanagementsy/Administrative/Expense%20Claim%20Process%E8%B4%B9%E7%94%A8%E6%8A%A5%E9%94%80%E6%B5%81%E7%A8%8B.pdf" class="icon-link" target="_blank"><small class="">Expenses Claim Process - BPR</small></a></div>
+                                <div class="ps-3"><a href="https://workflowattach.ap.autoliv.int/Helper%20Document/Culster%20Platform/Autoliv%20China%20Employee%20Expense%20Claim.pdf" class="icon-link" target="_blank"><small class="">User Manaul</small></a></div>
+                                <div class="ps-3"><a href="https://workflowattach.ap.autoliv.int/Helper%20Document/Culster%20Platform/Q&amp;A.pdf" class="icon-link" target="_blank"><small class="">Q&amp;A</small></a></div>
+                                <div class="ps-3"><a href="/Reports/ExpenseClaimReport/en-US/ExpenseClaimReport/Index" class="icon-link" target="_blank"><small class="">Data Query</small></a></div>
+                                <div class="ps-3"><a href="https://workflowattach.ap.autoliv.int/Helper%20Document/Culster%20Platform/Electronic%20Invoice%20for%20Train%20Ticket.pdf" class="icon-link" target="_blank"><small class="">Electronic Invoice For Train Ticket</small></a></div>
+                    </div>
+                </div>
+        </div>
+        <div class="col-3">
+        </div>
+    </div>
+</div>
+<div class="container-fluid mb-3 d-lg-none d-sm-block">
+    
+</div>
+
+
+<div class="card">
+    <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="requestform-tab" data-bs-toggle="tab" data-bs-target="#requestform-tab-pane" type="button" role="tab" aria-controls="requestform-tab-pane" aria-selected="true">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="me-1"><i class="bi bi-person-square"></i></div>
+                        <div><small class="">Request Form</small></div>
+                    </div>
+                </button>
+            </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="attachments-tab" data-bs-toggle="tab" data-bs-target="#attachments-tab-pane" type="button" role="tab" aria-controls="attachments-tab-pane" aria-selected="false" tabindex="-1">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="me-1"><i class="bi bi-files"></i></div>
+                            <div><small class="">Attachments</small></div>
+                            <div class="ms-1"><span id="UserInfo_Tabs_Attachment_Badge" class="badge rounded-pill text-bg-primary">0</span></div>
+                        </div>
+                    </button>
+                </li>
+                            <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="additionalapprovals-tab" data-bs-toggle="tab" data-bs-target="#additionalapprovals-tab-pane" type="button" role="tab" aria-controls="additionalapprovals-tab-pane" aria-selected="false" tabindex="-1">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="me-1"><i class="bi bi-person-fill-check"></i></div>
+                            <div><small class="">Additional Approval</small></div>
+                            <div class="ms-1"><span id="UserInfo_Tabs_AdditionalApproval_Badge" class="badge rounded-pill text-bg-primary">0</span></div>
+                        </div>
+                    </button>
+                </li>
+                            <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="emailcc-tab" data-bs-toggle="tab" data-bs-target="#emailcc-tab-pane" type="button" role="tab" aria-controls="emailcc-tab-pane" aria-selected="false" tabindex="-1">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="me-1"><i class="bi bi-envelope-plus"></i></div>
+                            <div><small class="">Email CC</small></div>
+                            <div class="ms-1"><span id="UserInfo_Tabs_EmailCC_Badge" class="badge rounded-pill text-bg-primary">0</span></div>
+                        </div>
+                    </button>
+                </li>
+        </ul>
+    </div>
+    <div class="card-body">
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="requestform-tab-pane" role="tabpanel" aria-labelledby="requestform-tab" tabindex="0">
+                <div class="table-responsive">
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/GetRequestFormPartialView?FormId=2074839106558361600&amp;SwitchUser=True&amp;SwitchCompany=True&amp;SwitchCostCenter=True" data-ajax="true" data-ajax-complete="jQuery.refreshRequestFormEvent" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#UserInfo_RequestForm_UserTable" id="form0" method="post"><input name="__RequestVerificationToken" type="hidden" value="35ckHiU8X3CoSWMlT6Zm1jZ5pARs_1Dpm5c9apY2eK9YOE19loQwtX-Sz6q_gQp7Si8RCQ2">                        <table id="UserInfo_RequestForm_UserTable" class="table table-bordered align-middle mb-0">
+                            <tbody>
+    <tr>
+        <th class="text-end table-light text-truncate"><small class="text-danger fw-bold">*</small><small>Employee</small></th>
+            <td class="w-25">
+                <select name="UserInfo_RequestForm_UserName" id="UserInfo_RequestForm_dropEmployee" data-switch-actiontype="1" data-switch-target="#UserInfo_RequestForm_ActionType" data-locales="en" data-target="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/GetUsers" data-pagesize="10" data-status="true" class="form-control select2-hidden-accessible" style="min-width:230px;" required="" data-select2-id="UserInfo_RequestForm_dropEmployee" tabindex="-1" aria-hidden="true">
+                        <option value="ap.autoliv.int/Carlos.Pang" selected="" data-select2-id="2">ACHT0865 - Carlos.Pang</option>
+                </select><span class="select2 select2-container select2-container--bootstrap-5" dir="ltr" data-select2-id="1" style="width: 291px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-UserInfo_RequestForm_dropEmployee-container"><span class="select2-selection__rendered" id="select2-UserInfo_RequestForm_dropEmployee-container" role="textbox" aria-readonly="true" title="ACHT0865 - Carlos.Pang">ACHT0865 - Carlos.Pang</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+            </td>
+        <th class="text-end table-light text-truncate w-auto"><small class="text-danger fw-bold">*</small><small>Company</small></th>
+            <td class="w-25">
+                <select name="UserInfo_RequestForm_CompanyCode" id="UserInfo_RequestForm_dropCompany" data-switch-actiontype="2" data-switch-target="#UserInfo_RequestForm_ActionType" data-locales="en" data-target="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/GetCompanys" class="form-control select2-hidden-accessible" style="min-width:230px;" required="" data-select2-id="UserInfo_RequestForm_dropCompany" tabindex="-1" aria-hidden="true">
+                        <option value="ACH" selected="" data-select2-id="4">ACH - Autoliv (Shanghai) Management Co. Ltd.</option>
+                </select><span class="select2 select2-container select2-container--bootstrap-5" dir="ltr" data-select2-id="3" style="width: 291px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-UserInfo_RequestForm_dropCompany-container"><span class="select2-selection__rendered" id="select2-UserInfo_RequestForm_dropCompany-container" role="textbox" aria-readonly="true" title="ACH - Autoliv (Shanghai) Management Co. Ltd.">ACH - Autoliv (Shanghai) Management Co. Ltd.</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+            </td>
+        <th class="text-end table-light text-truncate w-auto"><small class="text-danger fw-bold">*</small><small>Cost Center</small></th>
+            <td class="w-25">
+                <select name="UserInfo_RequestForm_CostCenterCode" id="UserInfo_RequestForm_dropCostCenter" data-switch-actiontype="3" data-switch-target="#UserInfo_RequestForm_ActionType" data-locales="en" data-target="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/GetCostCenters?CompanyCode=ACH" class="form-control select2-hidden-accessible" style="min-width:160px;" required="" data-select2-id="UserInfo_RequestForm_dropCostCenter" tabindex="-1" aria-hidden="true">
+                        <option value="4334" selected="" data-select2-id="6">4334 - Digitalization</option>
+                </select><span class="select2 select2-container select2-container--bootstrap-5" dir="ltr" data-select2-id="5" style="width: 291px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-UserInfo_RequestForm_dropCostCenter-container"><span class="select2-selection__rendered" id="select2-UserInfo_RequestForm_dropCostCenter-container" role="textbox" aria-readonly="true" title="4334 - Digitalization">4334 - Digitalization</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+            </td>
+    </tr>
+</tbody>
+                        </table>
+                        <input type="hidden" name="UserInfo_RequestForm_ActionType" id="UserInfo_RequestForm_ActionType">
+                        <button type="submit" id="UserInfo_RequestForm_Submit" class="d-none"></button>
+</form>                </div>
+            </div>
+                <div class="tab-pane fade show " id="attachments-tab-pane" role="tabpanel" aria-labelledby="attachments-tab" tabindex="0">
+                    <div class="container-fluid">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#UserInfo_Attachments_UploadModel">
+                                <i class="bi bi-file-earmark-plus"></i>&nbsp;<small class="">Add Attachment</small>
+                            </button>
+                        <div class="table-responsive mt-3">
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/GetAttachmentPartialView?FormId=2074839106558361600&amp;TaskType=1&amp;StepName=Begin&amp;TaskId=8604000000003008844" data-ajax="true" data-ajax-complete="jQuery.refreshAttachmentBadge" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#UserInfo_Attachment_TableBody" id="form1" method="post"><input name="__RequestVerificationToken" type="hidden" value="mmmzY1xlIDijRe7J-TgCIOg8zlugXGDwGYN57UU8Vb5BODm6bz5pncG0FjgFCsKY_s5U5A2">                                <table class="table table-bordered table-borderless table-hover text-center align-middle mb-0">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th><small class="">#</small></th>
+                                            <th><small class="">File Name</small></th>
+                                            <th><small class="">File Size</small></th>
+                                            <th><small class="">File Comments</small></th>
+                                            <th><small class="">Upload By</small></th>
+                                            <th><small class="">Upload Time</small></th>
+                                            <th><small class="">View/Edit</small></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="UserInfo_Attachment_TableBody">
+                                            <tr>
+        <td colspan="7"><small class="">No matching records found</small></td>
+    </tr>
+
+                                    </tbody>
+                                </table>
+                                <input type="hidden" name="UserInfo_Attachment_ActionType" id="UserInfo_Attachment_ActionType">
+                                <input type="hidden" name="UserInfo_Attachment_RemoveId" id="UserInfo_Attachment_RemoveId">
+                                <button type="submit" id="UserInfo_Attachment_Submit" class="d-none"></button>
+</form>                        </div>
+                            <div class="modal" id="UserInfo_Attachments_UploadModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="UserInfo_Attachments_UploadModelLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-fullscreen modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="UserInfo_Attachments_UploadModelLabel"><small class="">Upload Attachment</small></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row mb-3">
+                                                <div class="file-input"><div class="file-preview ">
+  <button type="button" class="btn-close fileinput-remove" aria-label="Close">
+</button>  <div class=" file-drop-zone clearfix"><div class="file-drop-zone-title">Drag &amp; drop files here …</div>
+    <div class="file-preview-thumbnails clearfix">
+    </div>
+    <div class="file-preview-status text-center text-success"></div>
+    <div class="kv-fileinput-error file-error-message" style="display: none;"></div>
+  </div>
+</div>
+<div class="kv-upload-progress kv-hidden" style="display: none;"><div class="progress">
+    <div class="progress-bar bg-success progress-bar-success progress-bar-striped active progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+        0%
+     </div>
+</div></div><div class="clearfix"></div>
+<div class="file-caption">
+  <div class="input-group ">
+      <input readonly="" class="file-caption-name form-control kv-fileinput-caption" placeholder="Select files ..." title="">
+
+<span class="file-caption-icon"></span>
+      <button type="button" title="Clear all unprocessed files" class="btn btn-default btn-outline-secondary fileinput-remove fileinput-remove-button" tabindex="500"><i class="bi-trash"></i>  <span class="hidden-xs">Remove</span></button>
+      <button type="button" title="Abort ongoing upload" class="btn btn-default btn-outline-secondary kv-hidden fileinput-cancel fileinput-cancel-button"><i class="bi-slash-circle"></i>  <span class="hidden-xs">Cancel</span></button>
+      
+      <button type="submit" title="Upload selected files" class="btn btn-default btn-outline-secondary fileinput-upload fileinput-upload-button" tabindex="500"><i class="bi-upload"></i>  <span class="hidden-xs">Upload</span></button>
+      <div class="btn btn-primary btn-file" tabindex="500"><i class="bi-folder2-open"></i>   <span class="hidden-xs">Browse …</span><input type="file" name="UserInfo_Attachments_UploadModel_Files" id="UserInfo_Attachments_UploadModel_Files" class="file" multiple="" data-locales="" data-target-upload="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/UploadAttachment?FormId=2074839106558361600&amp;TaskType=1&amp;StepName=Begin&amp;TaskId=8604000000003008844" data-target-remove="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/DeleteAttachment?FormId=2074839106558361600"></div>
+  </div></div></div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <div class="col-auto w-100"><small class="">File Comments</small></div>
+                                                <div class="col-auto w-100">
+                                                    <textarea id="UserInfo_Attachments_UploadModel_Remarks" class="form-control" rows="5"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                <i class="bi bi-x-lg"></i>
+                                                <small class="">Close</small>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                            <div class="tab-pane fade show " id="additionalapprovals-tab-pane" role="tabpanel" aria-labelledby="additionalapprovals-tab" tabindex="0">
+                    <div class="table-responsive">
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/GetAdditionalApprovalParitalView?FormId=2074839106558361600" data-ajax="true" data-ajax-complete="jQuery.refreshAdditionalApprovalEvents" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#UserInfo_AdditionalApproval_AdditionalApprovalTable" id="form2" method="post"><input name="__RequestVerificationToken" type="hidden" value="boAyJ_dYtWmjr1wEt16O4UIfKatHzMzk1FhSJ-hBtOeYI1NfWxClTH0SJAsPrym9P-T0sg2">                            <table id="UserInfo_AdditionalApproval_AdditionalApprovalTable" class="table table-bordered align-middle mb-0">
+                                <tbody>
+    <tr>
+        <th class="text-end table-light text-truncate" style="width:15%;"><small class="">Verify By(Before DOA)</small></th>
+        <td class="text-truncate" style="width:35%;">
+            <select id="UserInfo_AdditionalApprovals_dropVerifyBy" data-switch-actiontype-add="1" data-switch-actiontype-remove="2" data-switch-actiontype-target="#UserInfo_AdditionalApproval_ActionType" data-switch-type-target="#UserInfo_AdditionalApproval_Type" data-switch-type-content="1" data-switch-username-target="#UserInfo_AdditionalApproval_UserName" data-locales="en" data-target="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/GetUsers" data-pagesize="10" data-status="true" class="form-control select2-hidden-accessible" multiple="" data-select2-id="UserInfo_AdditionalApprovals_dropVerifyBy" tabindex="-1" aria-hidden="true">
+            </select><span class="select2 select2-container select2-container--bootstrap-5" dir="ltr" data-select2-id="7" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" placeholder="" style="width: 0.75em;"></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+        </td>
+        <th class="text-end table-light text-truncate" style="width:15%;"><small class="">Countersign(After DOA)</small></th>
+        <td class="text-truncate" style="width:35%;">
+            <select id="UserInfo_AdditionalApprovals_dropCountersign" data-switch-actiontype-add="3" data-switch-actiontype-remove="4" data-switch-actiontype-target="#UserInfo_AdditionalApproval_ActionType" data-switch-type-target="#UserInfo_AdditionalApproval_Type" data-switch-type-content="2" data-switch-username-target="#UserInfo_AdditionalApproval_UserName" data-locales="en" data-target="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/GetUsers" data-pagesize="10" data-status="true" class="form-control select2-hidden-accessible" multiple="" data-select2-id="UserInfo_AdditionalApprovals_dropCountersign" tabindex="-1" aria-hidden="true">
+            </select><span class="select2 select2-container select2-container--bootstrap-5" dir="ltr" data-select2-id="8" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" placeholder="" style="width: 0.75em;"></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+        </td>
+    </tr>
+</tbody>
+                            </table>
+                            <input type="hidden" name="UserInfo_AdditionalApproval_ActionType" id="UserInfo_AdditionalApproval_ActionType">
+                            <input type="hidden" name="UserInfo_AdditionalApproval_Type" id="UserInfo_AdditionalApproval_Type">
+                            <input type="hidden" name="UserInfo_AdditionalApproval_UserName" id="UserInfo_AdditionalApproval_UserName">
+                            <button type="submit" id="UserInfo_AdditionalApproval_Submit" class="d-none"></button>
+</form>                    </div>
+                </div>
+                            <div class="tab-pane fade show " id="emailcc-tab-pane" role="tabpanel" aria-labelledby="emailcc-tab" tabindex="0">
+                    <div class="table-responsive">
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/GetEmailCCParitalView?FormId=2074839106558361600" data-ajax="true" data-ajax-complete="jQuery.refreshEmailCCEvents" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#UserInfo_EmailCC_EmailCCTable" id="form3" method="post"><input name="__RequestVerificationToken" type="hidden" value="RIobk8l78zKR3Ro7Y6_v4EcixTeIbIHtXaCylXm719XKt4l6DVP0U3477YBpJ5OlrZsAPA2">                            <table id="UserInfo_EmailCC_EmailCCTable" class="table table-bordered align-middle mb-0">
+                                <tbody>
+    <tr>
+        <th class="text-end table-light text-truncate" style="width:15%;"><small class="">Email CC(After Approved)</small></th>
+        <td class="text-truncate" style="width:35%;">
+            <select id="UserInfo_AdditionalApprovals_dropEmailCC" data-switch-actiontype-add="1" data-switch-actiontype-remove="2" data-switch-actiontype-target="#UserInfo_EmailCC_ActionType" data-switch-type-target="#UserInfo_EmailCC_Type" data-switch-type-content="1" data-switch-username-target="#UserInfo_EmailCC_UserName" data-locales="en" data-target="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/GetUsers" data-pagesize="10" data-status="true" class="form-control select2-hidden-accessible" multiple="" data-select2-id="UserInfo_AdditionalApprovals_dropEmailCC" tabindex="-1" aria-hidden="true">
+            </select><span class="select2 select2-container select2-container--bootstrap-5" dir="ltr" data-select2-id="9" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" placeholder="" style="width: 0.75em;"></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+        </td>
+        <th class="text-end table-light text-truncate" style="width:15%;"><small class="">Additional Email CC(After Submited)</small></th>
+        <td class="text-truncate" style="width:35%;">
+            <select id="UserInfo_AdditionalApprovals_dropAdditionalEmailCC" data-switch-actiontype-add="3" data-switch-actiontype-remove="4" data-switch-actiontype-target="#UserInfo_EmailCC_ActionType" data-switch-type-target="#UserInfo_EmailCC_Type" data-switch-type-content="2" data-switch-username-target="#UserInfo_EmailCC_UserName" data-locales="en" data-target="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/GetUsers" data-pagesize="10" data-status="true" class="form-control select2-hidden-accessible" multiple="" data-select2-id="UserInfo_AdditionalApprovals_dropAdditionalEmailCC" tabindex="-1" aria-hidden="true">
+            </select><span class="select2 select2-container select2-container--bootstrap-5" dir="ltr" data-select2-id="10" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" placeholder="" style="width: 0.75em;"></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+        </td>
+    </tr>
+</tbody>
+                            </table>
+                            <input type="hidden" name="UserInfo_EmailCC_ActionType" id="UserInfo_EmailCC_ActionType">
+                            <input type="hidden" name="UserInfo_EmailCC_Type" id="UserInfo_EmailCC_Type">
+                            <input type="hidden" name="UserInfo_EmailCC_UserName" id="UserInfo_EmailCC_UserName">
+                            <button type="submit" id="UserInfo_EmailCC_Submit" class="d-none"></button>
+</form>                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="card mt-3">
+        <div class="card-header"><small class="">Expense Claim Change</small></div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover align-middle mb-0">
+                    <tbody><tr>
+                        <th class="text-end table-light text-truncate" style="width:15%;"><small class="">Change Expense Claim Number</small></th>
+                        <td class="text-start text-truncate" style="width:85%;">
+                            <div class="d-flex justify-content-start align-items-center">
+                                <div class="me-3">
+                                </div>
+                                    <div>
+                                        <div class="d-flex align-items-center gap-3">
+                                            <div>
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/ChooseExpenseClaimChangeParitalView?FormId=2074839106558361600&amp;PageIndex=1&amp;PageSize=10" data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="jQuery.showExpenseClaimChangeModal" data-ajax-update="#ExpenseClaimChangeModelContent" id="form4" method="post"><input name="__RequestVerificationToken" type="hidden" value="6ym3pk2Tw2-JvvdZfs5A1p14y2Dl8qcxSYd4ivYoUE3N2E501sPTCbpVp8sGJ23NRlavhQ2">                                                    <div id="ChooseExpenseClaimRequestSpinner" class="spinner-border d-none" role="status">
+                                                        <span class="visually-hidden">Loading...</span>
+                                                    </div>
+                                                    <button type="submit" id="btnChooseExpenseClaimRequestSubmit" class="btn btn-primary">
+                                                        <i class="bi bi-search"></i>
+                                                        <small class="">Choose</small>
+                                                    </button>
+</form>                                            </div>
+                                            <div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal" id="ExpenseClaimChangeModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="ExpenseClaimChangeModelLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-fullscreen modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="ExpenseClaimChangeModelLabel">Choose Expense Claim</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div id="ExpenseClaimChangeModelContent" class="modal-body"></div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                        <i class="bi bi-x-lg"></i>
+                                                        <small class="">Close</small>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="text-end table-light text-truncate" style="width:15%;"><small class="">Change Comments</small></th>
+                        <td class="text-start text-truncate" style="width:85%;">
+                                <small class=""></small>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="card mt-3">
+    <div class="card-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <div><small class="text-danger fw-bold">*</small><small class="">Expense Claim Request Details</small></div>
+            <div><span id="ExpenseClaimItemsBadge" class="badge text-bg-primary">0</span></div>
+        </div>
+    </div>
+    <div class="card-body">
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/ExpenseClaimItemParitalView?FormId=2074839106558361600" data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="jQuery.showExpenseClaimItemsBadge" data-ajax-update="#ExpenseClaimItemContent" id="form5" method="post"><input name="__RequestVerificationToken" type="hidden" value="lIcFEBJnY6FpnbuU5qo7PTDfjaPbQwE2jYWSvQOM41x2smIpQH5nI4x47zSMwck-W3o9sA2">            <div id="ExpenseClaimItemContent" class="row"><div class="table-responsive">
+    <table class="table table-bordered table-hover text-center align-middle mb-0">
+        <thead class="table-light align-middle">
+            <tr>
+                <th class="text-nowrap"><small class="">&nbsp;</small></th>
+                <th class="text-nowrap"><small class="">#</small></th>
+                <th class="text-nowrap"><small class="">Expense Date</small></th>
+                <th class="text-nowrap"><small class="">Account</small></th>
+                <th class="text-nowrap"><small class="">Request Number</small></th>
+                <th class="text-nowrap"><small class="">Business Purpose</small></th>
+                <th class="text-nowrap"><small class="">Total Amount</small></th>
+                <th class="text-nowrap"><small class="">Invoice</small></th>
+                <th class="text-nowrap"><small class="">Supporting Document</small></th>
+                <th class="text-nowrap"><small class="">Missing Receipt</small></th>
+                <th class="text-nowrap"><small class="">Reimbursed Amount</small></th>
+                <th class="text-nowrap"><small class="">Standard</small></th>
+                <th class="text-nowrap"><small class="">Exceed</small></th>
+                
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td colspan="13">
+                        <div class="card card-body text-center">
+                            <small class="">No matching records found</small>
+                        </div>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+</div></div>
+            <button type="submit" id="btnExpenseClaimItemContentSubmit" class="d-none"></button>
+</form>    </div>
+    <div class="card-footer text-start ">
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/ExpenseClaimItemModalParitalView?TaskType=1&amp;FormId=2074839106558361600&amp;ProcessName=ACN-TE-TE001-05&amp;Incident=0&amp;StepName=Begin&amp;TaskId=8604000000003008844" data-ajax="true" data-ajax-begin="jQuery.showExpenseClaimItemSpinner" data-ajax-complete="jQuery.showExpenseClaimItemModel" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#ExpenseClaimItemModal" id="form6" method="post">            <input type="hidden" name="ItemId" id="hfExpenseClaimItemModalItemId">
+            <input type="hidden" name="SelectedTabs" id="hfExpenseClaimItemModalSelectedTabs">
+<input name="__RequestVerificationToken" type="hidden" value="FNM4JIeIQzaC0nn_4VYQQFz_ECzEB9Cprju2EmZ88Y_Hb0es9tpPFJdLRYT0NI7hYjyVuw2">            <div id="AddExpenseClaimItemSpinner" class="spinner-border d-none" role="status"><span class="visually-hidden">Loading...</span></div>
+            <button type="submit" id="btnAddExpenseClaimItemSubmit" class="btn btn-primary"><i class="bi bi-plus-lg"></i><small class="">Add Expense Claim Item</small></button>
+</form>    </div>
+</div>
+
+<div class="container">
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/ExpenseClaimItemModalParitalView?TaskType=1&amp;FormId=2074839106558361600&amp;ProcessName=ACN-TE-TE001-05&amp;Incident=0&amp;StepName=Begin&amp;TaskId=8604000000003008844" class="needs-validation" data-ajax="true" data-ajax-complete="jQuery.showExpenseClaimItemModel" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#ExpenseClaimItemModal" id="ExpenseClaimItemModalForm" method="post" novalidate="novalidate">        <input type="hidden" name="ActionType" id="hfExpenseClaimItemModalActionType">
+<input name="__RequestVerificationToken" type="hidden" value="E0kw9uRLxY3R5v3ZNAAgkn3Acfx0qC_zl4ObV7oKguAJDURT5CYbgz8kjM4PpasCMHeMKQ2">        <div class="modal" id="ExpenseClaimItemModal" data-isedit="1" tabindex="-1" aria-labelledby="ExpenseClaimItemModalLabel" aria-hidden="true" data-formid="2074839106558361600"></div>
+</form>    <form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/ChooseLinkRequestParitalView?PageIndex=1&amp;PageSize=10" data-ajax="true" data-ajax-complete="jQuery.showChooseLinkRequestModel" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#ExpenseClaimItemLinkRequestModalContent" id="form8" method="post">        <input type="hidden" name="FormId" id="hfOpenChooseLinkRequestModelFormId">
+        <input type="hidden" name="ItemId" id="hfOpenChooseLinkRequestModelItemId">
+<input name="__RequestVerificationToken" type="hidden" value="8BaAsv9NxJVG3RcD8zzL_jGX9A6OhXdpg8HuyeBK32C8Xv40NM6zM7SwKEY0wy13WNfG0A2">        <button type="submit" id="btnOpenChooseLinkRequestModelSubmit" class="d-none"></button>
+</form>    <div class="modal" id="ExpenseClaimItemLinkRequestModal" tabindex="-10" aria-labelledby="ExpenseClaimItemLinkRequestModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header text-bg-primary"><h1 class="modal-title fs-5" id="ExpenseClaimItemLinkRequestModalLabel">Choose Request</h1></div>
+                <div class="modal-body"><div id="ExpenseClaimItemLinkRequestModalContent" class="table-responsive"></div></div>
+                <div class="modal-footer">
+                    <div class="d-none">
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/SelectedLinkRequest?FormId=2074839106558361600" data-ajax="true" data-ajax-begin="jQuery.hideChooseLinkRequestModel" data-ajax-complete="jQuery.successChooseLinkRequest" data-ajax-method="POST" id="form9" method="post">                            <input type="hidden" name="ItemId" id="hfChooseLinkRequestModelItemId">
+                            <input type="hidden" name="Selected" id="hfChooseLinkRequestModelSelected">
+<input name="__RequestVerificationToken" type="hidden" value="H73hnybshSjQUdAaaEQJw63UuZdfgltdqD4SbuYN1nvtiLHlIkF8OHCCNZEY7o6gOuou9g2">                            <button type="submit" id="btnChooseLinkRequestModelSubmit" class="btn btn-sm btn-primary"><i class="bi bi-check-lg"></i><small class="">Confirm</small></button>
+</form>                    </div>
+                    <button type="button" id="btnExpenseClaimItemLinkRequestModalCloseButton" class="btn btn-secondary"><i class="bi bi-arrow-left"></i><small class="">Back Previous Step</small></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/ShowMealAllowanceParitalView?FormId=2074839106558361600" data-ajax="true" data-ajax-complete="jQuery.showMealAllowanceModel" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#ExpenseClaimMealAllowanceModal" id="form10" method="post">        <input type="hidden" name="ItemId" id="hfOpenMealAllowanceModelItemId">
+<input name="__RequestVerificationToken" type="hidden" value="seneNFqY767fuih7hkA0R0XqMtbpF8flOk2MT3GcK7blx9ZbrtWyfTvfEOdv0i210Ju2KA2">        <button type="submit" id="btnOpenMealAllowanceModelSubmit" class="d-none"></button>
+</form>    <div class="modal" id="ExpenseClaimMealAllowanceModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-10" aria-labelledby="ExpenseClaimMealAllowanceModalLabel" aria-hidden="true"></div>
+
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/ShowMissingReceiptParitalView?FormId=2074839106558361600" data-ajax="true" data-ajax-complete="jQuery.showMissingReceiptModel" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#ExpenseClaimMissingReceiptModal" id="form11" method="post">        <input type="hidden" name="ItemId" id="hfOpenMissingReceiptModelItemId">
+<input name="__RequestVerificationToken" type="hidden" value="JFiepvoo6lQiT1cRwGKHwOOwYzf56ovN8G4lNU6eIQSYAx64_DkdPj5-2f1zmprjchTXBA2">        <button type="submit" id="btnOpenMissingReceiptModelSubmit" class="d-none"></button>
+</form>    <div class="modal" id="ExpenseClaimMissingReceiptModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-10" aria-labelledby="ExpenseClaimMissingReceiptModalLabel" aria-hidden="true"></div>
+
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/ChooseInvoiceParitalView?PageIndex=1&amp;PageSize=9" data-ajax="true" data-ajax-complete="jQuery.showChooseInvoiceModel" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#ExpenseClaimChooseInvoiceModalContent" id="form12" method="post">        <input type="hidden" name="FormId" id="hfOpenChooseInvoiceModelFormId">
+        <input type="hidden" name="ItemId" id="hfOpenChooseInvoiceModelItemId">
+<input name="__RequestVerificationToken" type="hidden" value="_S470SB-bJyNHoR64v6fo3GyYUs1U1-M72zdOTSQPP3QBBfYZ4cwXtMmNcoE_grpbB1G6Q2">        <button type="submit" id="btnOpenChooseInvoiceModelSubmit" class="d-none"></button>
+</form>    <div class="modal" id="ExpenseClaimChooseInvoiceModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-10" aria-labelledby="ExpenseClaimChooseInvoiceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header text-bg-primary"><h1 class="modal-title fs-5" id="ExpenseClaimChooseInvoiceModalLabel">Choose Invoice</h1></div>
+                <div class="modal-body"><div id="ExpenseClaimChooseInvoiceModalContent" class="container-fluid"></div></div>
+                <div class="modal-footer">
+                    <button type="button" id="btnExpenseClaimItemInvoiceModalButton" class="btn btn-primary"><i class="bi bi-check-lg"></i><small class="">Confirm</small></button>
+                    <div class="d-none">
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/SelectedInvoices?FormId=2074839106558361600" data-ajax="true" data-ajax-begin="jQuery.hideChooseInvoiceModel" data-ajax-complete="jQuery.successChooseInvoice" data-ajax-method="POST" id="form13" method="post">                            <input type="hidden" name="ItemId" id="hfExpenseClaimItemInvoiceModalItemId">
+                            <input type="hidden" name="Selecteds" id="hfExpenseClaimItemInvoiceModalSelected">
+<input name="__RequestVerificationToken" type="hidden" value="cPvi8dn22y_dyCoPAM1x26_W_wFdd-y41DZWwVJRzYFJYFuex17w_CLeptJoaX6hTYa-eQ2">                            <button type="submit" id="btnExpenseClaimItemInvoiceModalSubmit" class="d-none"></button>
+</form>                    </div>
+                    <button type="button" id="btnExpenseClaimItemInvoiceModalCloseButton" class="btn btn-secondary"><i class="bi bi-arrow-left"></i><small class="">Back Previous Step</small></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/RemoveImage?FormId=2074839106558361600" data-ajax="true" data-ajax-complete="jQuery.removeImageComplete" data-ajax-method="POST" id="form14" method="post">        <input type="hidden" name="ItemId" id="hfExpenseClaimItemRemoveImageItemId">
+        <input type="hidden" name="ImageType" id="hfExpenseClaimItemRemoveImageImageType">
+        <input type="hidden" name="SourceId" id="hfExpenseClaimItemRemoveImageSourceId">
+<input name="__RequestVerificationToken" type="hidden" value="ewvo6S0e_cEq1dE_oOfZS-3GGRyK7sqSNBRVdZRUVOH5MiipYVYTHUhGlhFQy_oGvIvcQw2">        <button type="submit" id="btnExpenseClaimItemRemoveImageSubmit" class="d-none"></button>
+</form>
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/ShowInvoiceParitalView?FormId=2074839106558361600" data-ajax="true" data-ajax-complete="jQuery.showEditInvoiceModel" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#ExpenseClaimEditInvoiceModalContent" id="form15" method="post">        <input type="hidden" name="ItemId" id="hfExpenseClaimItemEditInvoiceModalItemId">
+        <input type="hidden" name="ImageId" id="hfExpenseClaimItemEditInvoiceModalImageId">
+<input name="__RequestVerificationToken" type="hidden" value="hhNJ1fozXLRt9BQSL0k2gjWm1zwgtafSXWVCX417Bj6MU_EILRUWUDVqZUMaNXwtzbMDQQ2">        <button type="submit" id="btnExpenseClaimItemEditInvoiceModalSubmit" class="d-none"></button>
+</form>    <div class="modal" id="ExpenseClaimEditInvoiceModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-10" aria-labelledby="ExpenseClaimEditInvoiceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header text-bg-primary"><h1 class="modal-title fs-5" id="ExpenseClaimEditInvoiceModalLabel">Edit Invoice</h1></div>
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/SaveInvoice?FormId=2074839106558361600" data-ajax="true" data-ajax-begin="jQuery.hideEditInvoiceModel" data-ajax-complete="jQuery.successEditInvoice" data-ajax-method="POST" id="form16" method="post"><input name="__RequestVerificationToken" type="hidden" value="mq6Kl9HvpSyQRVSZhxwQoBuaRgIFodxBqDPBlXd1ds7n8Vkf7Fd_fED8OyeLAwox-LGu5Q2">                    <div class="modal-body"><div id="ExpenseClaimEditInvoiceModalContent" class="container-fluid"></div></div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary"><i class="bi bi-check-lg"></i><small class="">Confirm</small></button>
+                        <button type="button" id="btnExpenseClaimItemEditInvoiceModalCloseButton" class="btn btn-secondary"><i class="bi bi-arrow-left"></i><small class="">Back Previous Step</small></button>
+                    </div>
+</form>            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="ExpenseClaimUploadInvoiceModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-10" aria-labelledby="ExpenseClaimUploadInvoiceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header text-bg-primary"><h1 class="modal-title fs-5" id="ExpenseClaimUploadInvoiceModalLabel">Upload Invoice</h1></div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <div class="col-auto w-100"><small class="text-danger fw-bold">*</small><small class="text-muted">Invoice Type</small></div>
+                        <div class="col-auto w-100"><div class="form-check form-check-inline"><input type="radio" name="IdentifyType" id="rbDomestic" class="form-check-input" value="1" checked="" required=""><label class="form-check-label" for="rbDomestic"><small class="text-muted">Domestic(OCR and Image Reserve)</small></label></div><div class="form-check form-check-inline"><input type="radio" name="IdentifyType" id="rbOverseas" class="form-check-input" value="2" required=""><label class="form-check-label" for="rbOverseas"><small class="text-muted">Overseas(Only Image Reserve)</small></label></div></div>
+                    </div>
+                    <div class="row mb-3"><div class="file-input"><div class="file-preview ">
+  <button type="button" class="btn-close fileinput-remove" aria-label="Close">
+</button>  <div class=" file-drop-zone clearfix"><div class="file-drop-zone-title">Drag &amp; drop files here …</div>
+    <div class="file-preview-thumbnails clearfix">
+    </div>
+    <div class="file-preview-status text-center text-success"></div>
+    <div class="kv-fileinput-error file-error-message" style="display: none;"></div>
+  </div>
+</div>
+<div class="kv-upload-progress kv-hidden" style="display: none;"><div class="progress">
+    <div class="progress-bar bg-success progress-bar-success progress-bar-striped active progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+        0%
+     </div>
+</div></div><div class="clearfix"></div>
+<div class="file-caption">
+  <div class="input-group ">
+      <input readonly="" class="file-caption-name form-control kv-fileinput-caption" placeholder="Select files ..." title="">
+
+<span class="file-caption-icon"></span>
+      <button type="button" title="Clear all unprocessed files" class="btn btn-default btn-outline-secondary fileinput-remove fileinput-remove-button" tabindex="500"><i class="bi-trash"></i>  <span class="hidden-xs">Remove</span></button>
+      <button type="button" title="Abort ongoing upload" class="btn btn-default btn-outline-secondary kv-hidden fileinput-cancel fileinput-cancel-button"><i class="bi-slash-circle"></i>  <span class="hidden-xs">Cancel</span></button>
+      
+      <button type="submit" title="Upload selected files" class="btn btn-default btn-outline-secondary fileinput-upload fileinput-upload-button" tabindex="500"><i class="bi-upload"></i>  <span class="hidden-xs">Upload</span></button>
+      <div class="btn btn-primary btn-file" tabindex="500"><i class="bi-folder2-open"></i>   <span class="hidden-xs">Browse …</span><input type="file" name="invoices" id="ExpenseClaimUploadInvoiceModalFiles" class="file" multiple="" accept="image/*,application/pdf,application/ofd,application/xml" data-target-upload="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/UploadInvoices?formId=2074839106558361600" data-target-remove="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/RemoveInvoices"></div>
+  </div></div></div></div>
+                </div>
+                <div class="modal-footer">
+                    <div id="ExpenseClaimUploadInvoiceModalSpinner" class="spinner-border d-none" role="status"><span class="visually-hidden">Loading...</span></div>
+                    <button type="button" id="btnExpenseClaimUploadInvoiceModalCloseButton" class="btn btn-secondary" data-bs-dismiss="modal"><i class="bi bi-arrow-left"></i><small class="">Back Previous Step</small></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="ExpenseClaimUploadSupportModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-10" aria-labelledby="ExpenseClaimUploadSupportModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header text-bg-primary"><h1 class="modal-title fs-5" id="ExpenseClaimUploadSupportModalLabel">Upload Supporting Documentation</h1></div>
+                <div class="modal-body"><div class="row mb-3"><div class="file-input"><div class="file-preview ">
+  <button type="button" class="btn-close fileinput-remove" aria-label="Close">
+</button>  <div class=" file-drop-zone clearfix"><div class="file-drop-zone-title">Drag &amp; drop files here …</div>
+    <div class="file-preview-thumbnails clearfix">
+    </div>
+    <div class="file-preview-status text-center text-success"></div>
+    <div class="kv-fileinput-error file-error-message" style="display: none;"></div>
+  </div>
+</div>
+<div class="kv-upload-progress kv-hidden" style="display: none;"><div class="progress">
+    <div class="progress-bar bg-success progress-bar-success progress-bar-striped active progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+        0%
+     </div>
+</div></div><div class="clearfix"></div>
+<div class="file-caption">
+  <div class="input-group ">
+      <input readonly="" class="file-caption-name form-control kv-fileinput-caption" placeholder="Select files ..." title="">
+
+<span class="file-caption-icon"></span>
+      <button type="button" title="Clear all unprocessed files" class="btn btn-default btn-outline-secondary fileinput-remove fileinput-remove-button" tabindex="500"><i class="bi-trash"></i>  <span class="hidden-xs">Remove</span></button>
+      <button type="button" title="Abort ongoing upload" class="btn btn-default btn-outline-secondary kv-hidden fileinput-cancel fileinput-cancel-button"><i class="bi-slash-circle"></i>  <span class="hidden-xs">Cancel</span></button>
+      
+      <button type="submit" title="Upload selected files" class="btn btn-default btn-outline-secondary fileinput-upload fileinput-upload-button" tabindex="500"><i class="bi-upload"></i>  <span class="hidden-xs">Upload</span></button>
+      <div class="btn btn-primary btn-file" tabindex="500"><i class="bi-folder2-open"></i>   <span class="hidden-xs">Browse …</span><input type="file" name="supports" id="ExpenseClaimUploadSupportModalFiles" class="file" multiple="" data-target-upload="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/UploadSupports?formId=2074839106558361600" data-target-remove="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/RemoveSupport"></div>
+  </div></div></div></div></div>
+                <div class="modal-footer">
+                    <div id="ExpenseClaimUploadSupportModalSpinner" class="spinner-border d-none" role="status"><span class="visually-hidden">Loading...</span></div>
+                    <button type="button" id="btnExpenseClaimUploadSupportModalCloseButton" class="btn btn-secondary" data-bs-dismiss="modal"><i class="bi bi-arrow-left"></i><small class="">Back Previous Step</small></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/ChooseCashInAdvanceParitalView?FormId=2074839106558361600" data-ajax="true" data-ajax-complete="jQuery.showCashInAdvanceModal" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#ChooseCashInAdvanceModalContent" id="form17" method="post">        <input type="hidden" name="ItemId" id="hfChooseCashInAdvanceModalItemId">
+<input name="__RequestVerificationToken" type="hidden" value="i3ywLFhSaC5KGAMCvtl-GRGzHJ6syfSU__xyyGuYNUEabJdIh3GvWdU0wAOinN-_4otByw2">        <button type="submit" id="btnOpenChooseCashInAdvanceModalSubmit" class="d-none"></button>
+</form>    <div class="modal" id="ChooseCashInAdvanceModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-10" aria-labelledby="ChooseCashInAdvanceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header text-bg-primary"><h1 class="modal-title fs-5" id="ChooseCashInAdvanceModalLabel">Choose Cash In Advance</h1></div>
+                <div class="modal-body"><div id="ChooseCashInAdvanceModalContent" class="table-responsive"></div></div>
+                <div class="modal-footer">
+                    <div class="d-none">
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/SelectedCashInAdvance?FormId=2074839106558361600" data-ajax="true" data-ajax-begin="jQuery.hideCashInAdvanceModal" data-ajax-complete="jQuery.successChooseCashInAdvance" data-ajax-method="POST" id="form18" method="post">                            <input type="hidden" name="ItemId" id="hfChooseCashInAdvanceModelItemId">
+                            <input type="hidden" name="Selected" id="hfChooseCashInAdvanceModelSelected">
+<input name="__RequestVerificationToken" type="hidden" value="4T2Pb0k39YlZ7vaQ5KS4VkheoK_1oULQiYT9yRq3kVB382BDUaAKOEzHxXnJL7pgesqqmQ2">                            <button type="submit" id="btnChooseCashInAdvanceModelSubmit" class="d-none"></button>
+</form>                    </div>
+                    <button type="button" id="btnChooseCashInAdvanceModalCloseButton" class="btn btn-secondary" data-bs-dismiss="modal"><i class="bi bi-arrow-left"></i><small class="">Back Previous Step</small></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="card mt-3">
+    <div class="card-header"><small class="">Expense Claim Request Basic Info</small></div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover align-middle mb-0">
+                <tbody><tr>
+                    <td class="text-start" colspan="6">
+                        <small class="">Reimbursment Currency(currency you want to be reimbursed)</small>&nbsp;:&nbsp;<small class="">CNY</small>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-start" colspan="6">
+                        <div class="d-flex justify-content-start align-items-center">
+                            <div>
+                                <div>
+                                    <input type="checkbox" checked="" disabled="" class="form-check-input" aria-label="...">
+                                </div>
+                            </div>
+                            <div><small class="">I certify this report is a correct statement of my disbursement made on behalf of Autoliv China BU and is reported in accordance with company requirement.</small></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="text-nowrap table-light text-end" style="width:15%;"><small class="">Comments</small></th>
+                    <td class="text-start" colspan="5">
+                            <textarea name="Comments" data-field="true" data-save-target="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/SaveFieldValue?FormId=2074839106558361600" rows="5" class="form-control"></textarea>
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="card mt-3">
+    <div class="card-header"><small class="">Expense Claim Summary</small></div>
+    <div class="card-body">
+        <div id="ExpenseClaimSummaryContent" class="table-responsive"><table class="table table-bordered table-hover align-middle mb-0">
+    <tbody><tr>
+        <th class="text-nowrap table-light text-end" style="width:15%;"><small class="">Total Reimbursement(Without Tax)</small></th>
+        <td class="text-nowrap text-start" style="width:10%;">
+            <div class="card-text"><small class="">0.00</small></div>
+            <div class="card-text"><small class="">零圆整</small></div>
+        </td>
+        <th class="text-nowrap table-light text-end" style="width:15%;"><small class="">Total Reimbursement(With Tax)</small></th>
+        <td class="text-nowrap text-start" style="width:10%;">
+            <div class="card-text"><small class="">0.00</small></div>
+            <div class="card-text"><small class="">零圆整</small></div>
+        </td>
+        <th class="text-nowrap table-light text-end" style="width:15%;"><small class="">Amount To Be Reimbursed</small></th>
+        <td class="text-nowrap text-start" style="width:10%;">
+            <div class="card-text"><small class="">0.00</small></div>
+            <div class="card-text"><small class="">零圆整</small></div>
+        </td>
+        <th class="text-nowrap table-light text-end" style="width:15%;"><small class="">Meal Allowance</small></th>
+        <td class="text-nowrap text-start" style="width:10%;">
+            <div class="card-text"><small class="">0.00</small></div>
+            <div class="card-text"><small class="">零圆整</small></div>
+        </td>
+    </tr>
+    <tr>
+        <th class="text-nowrap table-light text-end"><small class="">Long Term Staff Advance</small></th>
+        <td class="text-nowrap text-start">
+            <div class="card-text"><small class="">0.00</small></div>
+            <div class="card-text"><small class="">零圆整</small></div>
+        </td>
+        <th class="text-nowrap table-light text-end"><small class="">Offset Long Term Staff Advance</small></th>
+        <td class="text-nowrap text-start">
+            <div class="card-text"><small class="">0.00</small></div>
+            <div class="card-text"><small class="">零圆整</small></div>
+        </td>
+        <th class="text-nowrap table-light text-end"><small class="">Remaining Long Term Staff Advance</small></th>
+        <td class="text-nowrap text-start">
+            <div class="card-text"><small class="">0.00</small></div>
+            <div class="card-text"><small class="">零圆整</small></div>
+        </td>
+        <th class="text-nowrap table-light text-end"></th>
+        <td class="text-nowrap text-start"></td>
+    </tr>
+    <tr>
+        <th class="text-nowrap table-light text-end"><small class="">Short Term Staff Advance</small></th>
+        <td class="text-nowrap text-start">
+            <div class="card-text"><small class="">0.00</small></div>
+            <div class="card-text"><small class="">零圆整</small></div>
+        </td>
+        <th class="text-nowrap table-light text-end"><small class="">Offset Short Term Staff Advance</small></th>
+        <td class="text-nowrap text-start">
+            <div class="card-text"><small class="">0.00</small></div>
+            <div class="card-text"><small class="">零圆整</small></div>
+        </td>
+        <th class="text-nowrap table-light text-end"><small class="">Offset Short Term Staff Advance Reference No</small></th>
+        <td class="text-nowrap text-start">
+        </td>
+        <th class="text-nowrap table-light text-end"><small class="">Remaining Short Term Staff Advance</small></th>
+        <td class="text-nowrap text-start">
+            <div class="card-text"><small class="">0.00</small></div>
+            <div class="card-text"><small class="">零圆整</small></div>
+        </td>
+    </tr>
+</tbody></table></div>
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/ExpenseClaim/ExpenseClaimSummaryParitalView?FormId=2074839106558361600" data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#ExpenseClaimSummaryContent" id="form19" method="post"><input name="__RequestVerificationToken" type="hidden" value="QW-6hRobl42-hElSEszuCK1r9Conpv4n1HlPWWXexxrxOEu0ZnA90jZ7IPemgodk4u1u8A2">            <button type="submit" id="btnExpenseClaimSummarySubmit" class="d-none"></button>
+</form>    </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <div class="card mt-3 mb-3">
+        <div class="card-header"><small class="">Form Actions</small></div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered align-middle mb-0">
+                    <tbody><tr>
+                        <td style="width:15%;">&nbsp;</td>
+                        <td style="width:85%;">
+                            <div id="FormActionsSpinner" class="spinner-border d-none" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <div id="FormActionsGroup" class="btn-group gap-3">
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/Submit?FormId=2074839106558361600&amp;TaskType=1&amp;ProcessName=ACN-TE-TE001-05&amp;Incident=0&amp;StepName=Begin&amp;TaskId=8604000000003008844&amp;LibraryName=ACH_Workflow_Process_ExpenseClaim.dll&amp;NameSpace=ACH_Workflow_Process_ExpenseClaim.Utils.ExpenseClaimUtils&amp;MethodName=GetApprovalMatrix" data-ajax="true" data-ajax-begin="jQuery.formActionAjaxBegin" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="jQuery.showApprovalMatrix" data-ajax-update="#FormActionSubmitApprovalMatrixModelContent" empty="False" id="FormActionSubmitApprovalMatrixModelForm" method="post">                                        <input type="hidden" name="ChargedSelectedEmployee" id="hfFormActionSubmitChargedSelectedEmployee">
+<input name="__RequestVerificationToken" type="hidden" value="L8CNhp6akLQBJwCkEZc64YyjDr6o3HDi4m3kaAZknOBIIZHFaczvKkBMXnA5_dPpmItIhQ2">                                        <button type="submit" id="btnFormActionSubmitButton" class="btn btn-primary">
+                                            <i class="bi bi-send"></i>
+                                            <small class="">Submit</small>
+                                        </button>
+</form>                                    <div class="modal" id="FormActionSubmitApprovalMatrixModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="FormActionSubmitApprovalMatrixModelLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="FormActionSubmitApprovalMatrixModelLabel">Approval Matrix</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div id="FormActionSubmitApprovalMatrixModelContent" class="modal-body"></div>
+                                                <div class="modal-footer">
+                                                    <div id="SendFormSpinner" class="spinner-border d-none" role="status">
+                                                        <span class="visually-hidden">Loading...</span>
+                                                    </div>
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/SendForm?FormId=2074839106558361600&amp;TaskType=1&amp;ProcessName=ACN-TE-TE001-05&amp;Incident=0&amp;StepName=Begin&amp;TaskId=8604000000003008844" data-ajax="true" data-ajax-begin="jQuery.snedFormAjaxBegin" data-ajax-method="POST" data-ajax-success="jQuery.sendFormAjaxSuccess" id="form21" method="post"><input name="__RequestVerificationToken" type="hidden" value="oZ-zeMhK_7DuMAwN9aDgPlEY420GeS2swT2Pa5YZJVrfanZo2L1T-F8r42ahxahSypxjjg2">                                                        <button type="submit" id="btnFormActionSubmitApprovalMatrixModelConfirm" class="btn btn-primary">
+                                                            <i class="bi bi-check-lg"></i>
+                                                            <small class="">Confirm</small>
+                                                        </button>
+                                                        <div class="toast-container top-50 start-50 translate-middle">
+                                                            <div id="FormActionSubmitApprovalMatrixModelSendFormMessage" class="toast align-items-center text-bg-danger" role="alert" aria-live="assertive" aria-atomic="true">
+                                                                <div class="toast-header">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                                                                        <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+                                                                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                                        </symbol>
+                                                                        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+                                                                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path>
+                                                                        </symbol>
+                                                                        <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+                                                                            <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+                                                                        </symbol>
+                                                                    </svg>
+                                                                    <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"></use></svg>
+                                                                    <strong class="me-auto">System Message</strong>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="toast-body"></div>
+                                                            </div>
+                                                        </div>
+</form>                                                    <button type="button" id="btnFormActionSubmitApprovalMatrixModelClose" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                        <i class="bi bi-x-lg"></i>
+                                                        <small class="">Close</small>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                                                                                                                                                    <form>
+                                        <button type="button" id="btnFormAction_OpenSaveDraftButton" class="btn btn-primary">
+                                            <i class="bi bi-folder-plus"></i>
+                                            <small class="">Save Darft</small>
+                                        </button>
+                                    </form>
+<form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/GetDarftBox?ControllerName=ExpenseClaim&amp;ActionName=Begin&amp;TaskType=1&amp;ProcessName=ACN-TE-TE001-05&amp;Incident=0&amp;StepName=Begin&amp;TaskId=8604000000003008844&amp;PageIndex=1&amp;PageSize=15" data-ajax="true" data-ajax-begin="jQuery.openDraftBoxBegin" data-ajax-complete="jQuery.openDraftBoxSuccess" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#DraftBoxModalContent" id="form22" method="post"><input name="__RequestVerificationToken" type="hidden" value="BdxJSLJCRdeRFOdnJcrxozvdVFVkHK483tK0u2t0Z84Vwg4IydTb9GszF-ujKOlikgPYdg2">                                        <button type="submit" class="btn btn-info">
+                                            <i class="bi bi-folder2-open"></i>
+                                            <small class="">Open Darft Box</small>
+                                        </button>
+</form><form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/SaveDraft?ProcessName=ACN-TE-TE001-05&amp;TaskId=8604000000003008844&amp;FormId=2074839106558361600" class="needs-validation" data-ajax="true" data-ajax-begin="jQuery.saveDraftBegin" data-ajax-complete="jQuery.saveDraftSuccess" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#SaveDraftResponseContent" id="SaveDarftForm" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="_QnfrIS0vzY4pdQoLju5FAI2FCpDrQ4WwSdduBR_ZSEoJX_r5WLy804UoWQJ9vPVk0gpGw2">                                        <div class="modal" id="SaveDraftModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="SaveDraftModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                                                <div class="modal-content">
+                                                    <div class="modal-header text-bg-primary">
+                                                        <h1 class="modal-title fs-5" id="SaveDraftModalLabel">Save To Darft</h1>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="row align-items-center mb-0">
+                                                            <label for="FormAction_txtDarftName" class="col-sm-2 col-form-label text-end">Darft Name<small class="text-danger fw-bold">*</small></label>
+                                                            <div class="col-sm-10">
+                                                                <input type="text" required="" name="DarftName" id="FormAction_txtDarftName" class="form-control" autocomplete="off">
+                                                            </div>
+                                                        </div>
+                                                        <div id="SaveDraftResponseContent"></div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <div id="SaveDarftActionSpinner" class="spinner-border d-none" role="status">
+                                                            <span class="visually-hidden">Loading...</span>
+                                                        </div>
+                                                        <div id="SaveDarftActions">
+                                                            <button type="submit" class="btn btn-primary">
+                                                                <i class="bi bi-check-lg"></i>
+                                                                <small class="">Save</small>
+                                                            </button>
+                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                                <i class="bi bi-x-lg"></i>
+                                                                <small class="">Close</small>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+</form><form action="/Processes/Travel And Expense/ClusterPaltformExpenseClaim/en-US/Components/GetDarftBox?ControllerName=ExpenseClaim&amp;ActionName=Begin&amp;TaskType=1&amp;ProcessName=ACN-TE-TE001-05&amp;Incident=0&amp;StepName=Begin&amp;TaskId=8604000000003008844" data-ajax="true" data-ajax-begin="jQuery.draftBoxSubmitBegin" data-ajax-complete="jQuery.draftBoxSubmitSuccess" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#DraftBoxModalContent" id="form24" method="post"><input name="__RequestVerificationToken" type="hidden" value="RUmArZWrIEcZ4XE8_ii0SSp4hPY5ugiDg-Q88_evFQvvpaFzmhYW4LOo7TmB8gQeTUtFQA2">                                        <div class="modal" id="DraftBoxModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="DraftBoxModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                                                <div class="modal-content">
+                                                    <div class="modal-header text-bg-primary">
+                                                        <h1 class="modal-title fs-5" id="DraftBoxModalLabel">Draft Box</h1>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div id="DraftBoxModalContent"></div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <div id="DraftBoxActionSpinner" class="spinner-border d-none" role="status">
+                                                            <span class="visually-hidden">Loading...</span>
+                                                        </div>
+                                                        <div id="DraftBoxActions">
+                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                                <i class="bi bi-x-lg"></i>
+                                                                <small class="">Close</small>
+                                                            </button>
+                                                            <button type="submit" id="btnDraftBoxModalSubmit" class="d-none"></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+</form>                                                            </div>
+                        </td>
+                    </tr>
+                </tbody></table>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="FormActionSubmitMessage" class="toast align-items-center text-bg-danger" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                                <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                </symbol>
+                                <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path>
+                                </symbol>
+                                <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+                                </symbol>
+                            </svg>
+                            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"></use></svg>
+                            <strong class="me-auto">System Message</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </main>
+    <script src="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/jquery/jquery.js?bundleVirtualPath=%7e%2fscript%2fjquery"></script>
+
+    <script src="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js?bundleVirtualPath=%7e%2fscript%2fjquery-ajax-unobtrusive"></script>
+
+    <script src="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/bootstrap/js/bootstrap.bundle.js?bundleVirtualPath=%7e%2fscript%2fbootstrap"></script>
+
+    <script src="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/bootstrap-fileinput/js/fileinput.js?bundleVirtualPath=%7e%2fscript%2fbootstrap-fileinput"></script>
+<script src="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/bootstrap-fileinput/themes/bs5/theme.js?bundleVirtualPath=%7e%2fscript%2fbootstrap-fileinput"></script>
+<script src="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/js-image-compressor/image-compressor.js?bundleVirtualPath=%7e%2fscript%2fbootstrap-fileinput"></script>
+
+    <script src="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/select2/js/select2.full.js?bundleVirtualPath=%7e%2fscript%2fselect2"></script>
+
+    <script src="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/viewerjs/js/viewer.js?bundleVirtualPath=%7e%2fscript%2fviewerjs"></script>
+
+    <script src="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/lib/modernizr/modernizr.js?bundleVirtualPath=%7e%2fscript%2fmodernizr"></script>
+
+    <script src="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/Scripts/common.js?bundleVirtualPath=%7e%2fscript%2fcommon"></script>
+
+    
+    <script src="/Processes/Travel%20And%20Expense/ClusterPaltformExpenseClaim/Scripts/expenseclaim.js?bundleVirtualPath=%7e%2fscript%2fexpenseclaim"></script>
+
+
+
+<div id="kvFileinputModal" class="file-zoom-dialog modal fade" aria-labelledby="kvFileinputModalLabel" tabindex="-1"><div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-header kv-zoom-header">
+      <h6 class="modal-title kv-zoom-title" id="kvFileinputModalLabel"><span class="kv-zoom-caption"></span> <span class="kv-zoom-size"></span></h6>
+      <div class="kv-zoom-actions"><button type="button" class="btn btn-sm btn-kv btn-default btn-outline-secondary btn-kv-rotate" title="Rotate 90 deg. clockwise"><i class="bi-arrow-clockwise"></i></button><button type="button" class="btn btn-sm btn-kv btn-default btn-outline-secondary btn-kv-toggleheader" title="Toggle header" data-toggle="button" aria-pressed="false"><i class="bi-arrows-expand"></i></button><button type="button" class="btn btn-sm btn-kv btn-default btn-outline-secondary btn-kv-fullscreen" title="Toggle full screen" data-toggle="button" aria-pressed="false"><i class="bi-arrows-fullscreen"></i></button><button type="button" class="btn btn-sm btn-kv btn-default btn-outline-secondary btn-kv-borderless" title="Toggle borderless mode" data-toggle="button" aria-pressed="false"><i class="bi-arrows-angle-expand"></i></button><button type="button" class="btn btn-sm btn-kv btn-default btn-outline-secondary btn-kv-close" title="Close detailed preview" data-bs-dismiss="modal" aria-hidden="true"><i class="bi-x-lg"></i></button></div>
+    </div>
+    <div class="floating-buttons"></div>
+    <div class="kv-zoom-body file-zoom-content krajee-default"></div>
+<button type="button" class="btn btn-default btn-outline-secondary btn-navigate btn-kv-prev" title="View previous file"><i class="bi-chevron-left"></i></button> <button type="button" class="btn btn-default btn-outline-secondary btn-navigate btn-kv-next" title="View next file"><i class="bi-chevron-right"></i></button>
+    <div class="kv-zoom-description"></div>
+  </div>
+</div>
+</div></body></html>
